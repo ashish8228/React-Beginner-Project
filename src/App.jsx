@@ -1,4 +1,5 @@
 import './App.css'
+import CharacterCounter from './components/CharacterCounter'
 import CounterApp from './components/counterApp'
 import InputHandle from './components/inputHandle'
 import ShowHideText from './components/ShowHideText'
@@ -9,6 +10,7 @@ function App() {
       <CounterApp />
       <ShowHideText/>
       <InputHandle/>
+      <CharacterCounter/>
     </div>
   )
 }
