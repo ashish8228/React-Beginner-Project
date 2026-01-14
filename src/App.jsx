@@ -6,7 +6,7 @@ import ShowHideText from './components/ShowHideText'
 
 function App() {
   return (
-    <div className=''>
+    <div className='overflow-hidden'>
       <CounterApp />
       <ShowHideText/>
       <InputHandle/>
